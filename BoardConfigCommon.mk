@@ -14,6 +14,8 @@
 # limitations under the License.
 #
 
+include hardware/samsung_slsi-linaro/config/config.mk
+	
 TARGET_BOARD_KERNEL_HEADERS := hardware/samsung_slsi-linaro/exynos/kernel-$(TARGET_LINUX_KERNEL_VERSION)-headers/kernel-headers
 TARGET_SLSI_VARIANT := linaro
 TARGET_SOC_NAME := exynos
